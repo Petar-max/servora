@@ -1,0 +1,5 @@
+﻿# local secrets and temporary deploy files
+admin-credentials.txt
+deploy.zip
+relay.html
+*.log
