@@ -25,6 +25,13 @@ const I18N = {
   '✓ Проверен (демо)':'✓ Verified (demo)','Проверен (демо)':'Verified (demo)','Проверен':'Verified','Непроверен':'Not verified','демо':'demo',
   // categories and services
   'Ремонти и строителство':'Repairs & construction','Почистване':'Cleaning','Двор и градина':'Yard & garden','Автоуслуги':'Car services',
+  'Категории':'Categories','Услуга':'Service','Избери от какво имаш нужда и виж специалистите за него.':'Choose what you need and see the professionals for it.',
+  'Какво работиш?':'What do you do?','(избери едно или повече)':'(choose one or more)','За тази категория няма подкатегории.':'This category has no subcategories.',
+  'Бани':'Bathrooms','Боядисване':'Painting','ВиК':'Plumbing','Електро':'Electrical','До ключ':'Turnkey','Покриви':'Roofs','Мебели':'Furniture',
+  'Отопление и газ':'Heating & gas','Подови настилки':'Flooring','Дограма и щори':'Windows & blinds','Врати и ключари':'Doors & locksmiths',
+  'Дърводелство':'Carpentry','Гипсокартон и тавани':'Drywall & ceilings','Зидария и строеж':'Masonry & building','Изолация и фасади':'Insulation & facades',
+  'Климатици':'Air conditioning','Соларни системи':'Solar systems','Метал и заварки':'Metal & welding','Градини и дворове':'Gardens & yards',
+  'Битова техника':'Appliances','Камери и домофони':'Cameras & intercoms','Архитект и дизайн':'Architect & design',
   'боядисване':'painting','боядисване на стени':'wall painting','шпакловка':'plastering','поставяне на плочки':'tiling','ремонт на баня':'bathroom renovation',
   'електроинсталация':'electrical wiring','смяна на контакти':'replacing sockets','монтаж на гипсокартон':'drywall installation','ремонт на покрив':'roof repair',
   'поставяне на ламинат':'laminate flooring','почистване на апартамент':'apartment cleaning','почистване след ремонт':'post-renovation cleaning',
