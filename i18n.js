@@ -184,6 +184,7 @@ Object.assign(I18N, {
   'Следващите 7 дни':'Next 7 days','Публикувай':'Post','Готово':'Done','Пропусни':'Skip','Публикувано':'Posted','Пропуснато':'Skipped','Време е за публикуване!':'Time to post!',
   'Още няма планирани публикации. Избери план и натисни „Запази програмата“.':'No planned posts yet. Pick a plan and press “Save plan”.','Програмата е запазена':'Plan saved',
   'Как клиповете да се гледат повече':'How to get more views','Видео програмата е за специалисти.':'The video plan is for professionals.',
+  'Премахни профилната снимка':'Remove profile photo','Премахни':'Remove','Премахнато. Майсторът получи известие.':'Removed. The professional was notified.',
   'Линкът е копиран':'Link copied','Добавен в „Запазени“':'Added to “Saved”','Премахнат от „Запазени“':'Removed from “Saved”','ул., номер, квартал':'street, number, district'
 });
 const I18N_PATTERNS = [
