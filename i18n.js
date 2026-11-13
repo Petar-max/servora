@@ -158,7 +158,22 @@ const I18N = {
   'SERVORA — интеграционен тест':'SERVORA — integration test','София област':'Sofia Province'
 };
 
+Object.assign(I18N, {
+  'Виж кой е най-близо':'See who is nearest','Обнови местоположението ми':'Update my location','Най-близо до мен':'Nearest to me','Запазени':'Saved','Упътване':'Directions','Старт':'Start','Обади се':'Call','Запази':'Save','Запазен':'Saved','Сподели':'Share','Препрати':'Forward','Уебсайт':'Website','Копирай линк':'Copy link','Затвори':'Close','Препрати профила':'Forward profile',
+  'Местоположение':'Location','задължително':'required','Адрес':'Address','Моето местоположение':'My location','Намери адреса':'Find address','Телефон за връзка':'Contact phone','Уебсайт (по желание)':'Website (optional)',
+  'По него клиентите виждат колко си близо и стигат до теб с навигация.':'Customers use it to see how close you are and to navigate to you.',
+  'Добави местоположението си':'Add your location','Задай местоположение':'Set location','Картата не можа да се зареди.':'The map could not be loaded.',
+  'То е задължително. Без него клиентите не те виждат в „Най-близо до мен“ и не могат да стигнат до теб с навигация.':'It is required. Without it customers cannot see you in “Nearest to me” or navigate to you.',
+  '✅ Точката е зададена. Докосни картата или влачи карфицата, за да я смениш.':'✅ Location set. Tap the map or drag the pin to change it.',
+  '✅ Точката е зададена. Натисни „Запази профила“, за да я запишеш.':'✅ Location set. Press “Save profile” to keep it.',
+  '⚠️ Още няма точка. Натисни „Моето местоположение“, потърси адреса или докосни картата.':'⚠️ No location yet. Press “My location”, search the address or tap the map.',
+  'Търсим къде се намираш…':'Finding your location…','Разреши достъп до местоположението в настройките на браузъра':'Allow location access in your browser settings','Не успяхме да намерим местоположението ти':'We could not find your location',
+  'Задай местоположението си – то е задължително':'Set your location – it is required','Невалиден телефонен номер':'Invalid phone number','Невалиден адрес на уебсайт':'Invalid website address','Напиши адрес':'Enter an address',
+  'Не намерихме адреса. Докосни точното място на картата.':'Address not found. Tap the exact spot on the map.','Търсенето не успя. Докосни точното място на картата.':'Search failed. Tap the exact spot on the map.',
+  'Линкът е копиран':'Link copied','Добавен в „Запазени“':'Added to “Saved”','Премахнат от „Запазени“':'Removed from “Saved”','ул., номер, квартал':'street, number, district'
+});
 const I18N_PATTERNS = [
+  [/^(.+) от теб$/, '$1 from you'], [/^Запазени (\d+)$/, 'Saved $1'], [/^Изпрати (.+) на приятел\.$/, 'Send $1 to a friend.'],
   [/^Показани: (\d+)$/, 'Shown: $1'], [/^Изпратихме писмо на (.+)\.$/, 'We sent an email to $1.'], [/^Натисни линка „Reset Password“ в него\.$/, 'Tap the “Reset Password” link in it.'], [/^⛔ Спрян до (.+)$/, '⛔ Suspended until $1'], [/^⛔ Блокиран безсрочно$/, '⛔ Blocked permanently'], [/^Причина: (.+)$/s, (m, r) => 'Reason: ' + r], [/^Спрян на: (.+)$/, 'Suspended on: $1'], [/^Ще бъде активен отново на (.+)\.$/, 'It will be active again on $1.'], [/^⛔ Профилът на (.+) е временно недостъпен\.$/, '⛔ $1\'s profile is temporarily unavailable.'], [/^⚑ Сигнали от клиенти \((\d+)\)$/, '⚑ Customer reports ($1)'], [/^⚑ Сигнали срещу този човек: (\d+)$/, '⚑ Reports against this person: $1'], [/^⚑ Сигнали: (\d+)$/, '⚑ Reports: $1'], [/^(\d+) клиенти · (\d+) специалисти$/, '$1 customers · $2 professionals'], [/^(\d+) отворени$/, '$1 open'], [/^(\d+) активни$/, '$1 active'],
   [/^Оферти \((\d+)\)$/, 'Offers ($1)'], [/^Всички \((\d+)\)$/, 'All ($1)'], [/^Със снимки \((\d+)\)$/, 'With photos ($1)'],
   [/^(\d+) специалист(и)?$/, (m, n) => `${n} professional${n === '1' ? '' : 's'}`], [/^📍 (.+)$/, (m, c) => '📍 ' + tr(c)],
