@@ -170,6 +170,20 @@ Object.assign(I18N, {
   'Търсим къде се намираш…':'Finding your location…','Разреши достъп до местоположението в настройките на браузъра':'Allow location access in your browser settings','Не успяхме да намерим местоположението ти':'We could not find your location',
   'Задай местоположението си – то е задължително':'Set your location – it is required','Невалиден телефонен номер':'Invalid phone number','Невалиден адрес на уебсайт':'Invalid website address','Напиши адрес':'Enter an address',
   'Не намерихме адреса. Докосни точното място на картата.':'Address not found. Tap the exact spot on the map.','Търсенето не успя. Докосни точното място на картата.':'Search failed. Tap the exact spot on the map.',
+  'Видео програма':'Video plan','Видео програма за социалните мрежи':'Social media video plan','Публикувай редовно – клиентите ще те запомнят.':'Post regularly – customers will remember you.',
+  'Седмичен график за клиповете ти в TikTok, Instagram, YouTube и Facebook. Ние ти напомняме в точния час.':'A weekly schedule for your clips on TikTok, Instagram, YouTube and Facebook. We remind you at the right time.',
+  'Бързо начало – готов план от нас':'Quick start – a ready plan from us','Лек старт':'Easy start','Препоръчан':'Recommended','Максимален растеж':'Maximum growth','Използвай':'Use',
+  'Хората, които търсят майстор, гледат най-много вечер след работа (19–21 ч.) и в събота и неделя сутрин, когато планират ремонти. Затова планът е подреден точно в тези часове.':'People looking for a tradesperson watch most in the evening after work (7–9 pm) and on weekend mornings, when they plan renovations. The plan uses exactly those hours.',
+  '3 клипа седмично – вторник и четвъртък вечер, събота сутрин. За начало.':'3 clips a week – Tuesday and Thursday evening, Saturday morning. To get started.',
+  '5 клипа седмично в най-гледаните часове за всяка мрежа. Най-добър резултат за усилието.':'5 clips a week at the most-watched hours for each network. Best result for the effort.',
+  'Всеки ден + още един клип във вторник. За бърз ръст на последователите.':'Every day + one more clip on Tuesday. For fast follower growth.',
+  'Моята седмица':'My week','Или си направи сам: за всеки ден избери час и мрежите. 🔥 означава час с най-много гледания.':'Or build your own: pick a time and networks for each day. 🔥 marks the most-watched hours.',
+  'Понеделник':'Monday','Вторник':'Tuesday','Сряда':'Wednesday','Четвъртък':'Thursday','Петък':'Friday','Събота':'Saturday','Неделя':'Sunday',
+  '+ Добави час':'+ Add time','Почивен ден – без публикации.':'Day off – no posts.','Всички':'All','Силен час':'Strong time','Добър час за част от мрежите':'Good time for some networks','Слаб час – по-малко гледания':'Weak time – fewer views',
+  'Повтаряй програмата всяка седмица автоматично':'Repeat the plan every week automatically','Имаш незапазени промени.':'You have unsaved changes.','Запази програмата':'Save plan','Добави в календара':'Add to calendar',
+  'Следващите 7 дни':'Next 7 days','Публикувай':'Post','Готово':'Done','Пропусни':'Skip','Публикувано':'Posted','Пропуснато':'Skipped','Време е за публикуване!':'Time to post!',
+  'Още няма планирани публикации. Избери план и натисни „Запази програмата“.':'No planned posts yet. Pick a plan and press “Save plan”.','Програмата е запазена':'Plan saved',
+  'Как клиповете да се гледат повече':'How to get more views','Видео програмата е за специалисти.':'The video plan is for professionals.',
   'Линкът е копиран':'Link copied','Добавен в „Запазени“':'Added to “Saved”','Премахнат от „Запазени“':'Removed from “Saved”','ул., номер, квартал':'street, number, district'
 });
 const I18N_PATTERNS = [
