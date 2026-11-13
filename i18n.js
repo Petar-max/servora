@@ -185,6 +185,9 @@ Object.assign(I18N, {
   'Още няма планирани публикации. Избери план и натисни „Запази програмата“.':'No planned posts yet. Pick a plan and press “Save plan”.','Програмата е запазена':'Plan saved',
   'Как клиповете да се гледат повече':'How to get more views','Видео програмата е за специалисти.':'The video plan is for professionals.',
   'Премахни профилната снимка':'Remove profile photo','Премахни':'Remove','Премахнато. Майсторът получи известие.':'Removed. The professional was notified.',
+  'Връзка с администратор':'Contact admin','Помощник':'Assistant','Ти':'You','Чети отговорите на глас':'Read answers aloud','Искам отговор от администратор':'I want an answer from the admin',
+  'Помощникът отговаря веднага на въпроси за сайта. Администраторът вижда разговора и може да се включи.':'The assistant answers questions about the site right away. The admin sees the conversation and can join in.',
+  'Напиши въпроса си или натисни 🎤':'Type your question or press 🎤','Помощникът пише…':'The assistant is typing…','Въпроси от потребители':'Questions from users','Всички въпроси':'All questions','Чака отговор':'Waiting for reply','Ново':'New','Отговорено':'Answered','Напиши отговор…':'Write a reply…','Отговорът е изпратен':'Reply sent','Още няма въпроси.':'No questions yet.',
   'Линкът е копиран':'Link copied','Добавен в „Запазени“':'Added to “Saved”','Премахнат от „Запазени“':'Removed from “Saved”','ул., номер, квартал':'street, number, district'
 });
 const I18N_PATTERNS = [
